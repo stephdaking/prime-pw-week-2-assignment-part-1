@@ -27,35 +27,38 @@ let pets = 1;
 console.log(pets);
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 5;
+console.log(friendsPets);
 // 11 - Add two pets to your `pets` variable
 pets += 2;
 console.log(pets)
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 4;
+
+console.log(allowedPets);
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-if(adventurous){
-    console.log('Adventures are great!');
+if (adventurous){
+  console.log('Adventures are great!');
 }
-else{
-    console.log('How about we stay home');
+else {
+  console.log('How about we stay home');
 };
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if(luckyNumber === 2 && adventurous){
-    console.log('Roll the dice!');
+if (luckyNumber === 2 && adventurous){
+  console.log('Roll the dice!');
 }
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
-if(pets < allowedPets){
-    console.log('I can have more pets!');
+if (pets < allowedPets){
+  console.log('I can have more pets!');
 }
-else{
-    console.log('Oh no, I have too many pets!');
+else {
+  console.log('Oh no, I have too many pets!');
 };
 // STRETCH GOALS:
 
@@ -66,13 +69,13 @@ else{
 // console.log `mostPets` after the conditional has run.
 let mostPets = 0;
 
-if(pets > friendsPets){
-    mostPets = pets;
-    console.log(mostPets);
+if (pets > friendsPets){
+  mostPets = pets;
+  console.log(mostPets);
 }
-else{
-    mostPets = friendsPets;
-    console.log(mostPets);
+else {
+  mostPets = friendsPets;
+  console.log(mostPets);
 };
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
